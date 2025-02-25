@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -62,7 +63,12 @@
             font-weight: 400;
         }
 
-        h1, h2, h3, h4, h5, h6 {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
             font-weight: 700;
             line-height: 1.2;
         }
@@ -890,7 +896,8 @@
             font-size: 0.9rem;
         }
 
-        .project-filter.active, .project-filter:hover {
+        .project-filter.active,
+        .project-filter:hover {
             background: var(--primary);
             color: var(--dark);
         }
@@ -1373,7 +1380,7 @@
         .footer-logo a {
             font-size: 1.8rem;
             font-weight: 700;
-            color: var(--light);
+            color: var (--light);
         }
 
         .footer-logo span {
@@ -1501,6 +1508,7 @@
             from {
                 opacity: 0;
             }
+
             to {
                 opacity: 1;
             }
@@ -1511,6 +1519,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -1522,6 +1531,7 @@
                 opacity: 0;
                 transform: translateX(-30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateX(0);
@@ -1533,6 +1543,7 @@
                 opacity: 0;
                 transform: translateX(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateX(0);
@@ -1544,10 +1555,12 @@
                 opacity: 1;
                 transform: translateY(0);
             }
+
             50% {
                 opacity: 0.5;
                 transform: translateY(8px);
             }
+
             100% {
                 opacity: 1;
                 transform: translateY(0);
@@ -1559,11 +1572,11 @@
             .hero-title {
                 font-size: 3.5rem;
             }
-            
+
             .section-title {
                 font-size: 2.5rem;
             }
-            
+
             .hero-stat-number {
                 font-size: 2rem;
             }
@@ -1574,24 +1587,25 @@
                 flex-direction: column;
                 gap: 3rem;
             }
-            
-            .hero-content, .hero-image {
+
+            .hero-content,
+            .hero-image {
                 width: 100%;
                 max-width: 100%;
             }
-            
+
             .hero-image {
                 height: 400px;
             }
-            
+
             .hero-title {
                 font-size: 3rem;
             }
-            
+
             .section-title {
                 font-size: 2.2rem;
             }
-            
+
             .nav {
                 position: fixed;
                 top: 0;
@@ -1608,37 +1622,37 @@
                 box-shadow: -10px 0 30px rgba(0, 0, 0, 0.2);
                 z-index: 1000;
             }
-            
+
             .nav.active {
                 right: 0;
             }
-            
+
             .nav-list {
                 flex-direction: column;
                 width: 100%;
             }
-            
+
             .nav-item {
                 margin: 1rem 0;
                 width: 100%;
             }
-            
+
             .nav-link {
                 width: 100%;
                 display: block;
                 padding: 0.8rem 0;
             }
-            
+
             .nav-cta {
                 margin: 1.5rem 0 0;
                 width: 100%;
                 text-align: center;
             }
-            
+
             .menu-btn {
                 display: flex;
             }
-            
+
             .timeline-content {
                 width: calc(50% - 2rem);
             }
@@ -1648,67 +1662,67 @@
             html {
                 font-size: 14px;
             }
-            
+
             .hero-title {
                 font-size: 2.5rem;
             }
-            
+
             .hero-btns {
                 flex-direction: column;
                 width: 100%;
             }
-            
+
             .hero-btns .btn {
                 width: 100%;
                 text-align: center;
                 margin-bottom: 1rem;
             }
-            
+
             .hero-stats {
                 flex-direction: column;
                 gap: 1.5rem;
             }
-            
+
             .hero-stat::after {
                 display: none;
             }
-            
+
             .about-stat {
                 flex: 1 0 calc(50% - 1rem);
             }
-            
+
             .timeline-item {
                 width: 100%;
                 margin-bottom: 3rem;
             }
-            
-            .timeline-item:nth-child(odd), 
+
+            .timeline-item:nth-child(odd),
             .timeline-item:nth-child(even) {
                 justify-content: flex-start;
             }
-            
+
             .timeline-content {
                 width: calc(100% - 3rem);
                 margin-left: 3rem;
             }
-            
+
             .timeline-dot {
                 left: 0;
                 transform: translateX(0);
             }
-            
+
             .process-timeline::before {
                 left: 15px;
                 transform: translateX(0);
             }
-            
+
             .timeline-item:nth-child(even) .timeline-content::after {
                 left: -10px;
                 top: 1.5rem;
                 border-bottom: 1px solid rgba(255, 255, 255, 0.05);
                 border-left: 1px solid rgba(255, 255, 255, 0.05);
             }
-            
+
             .footer-bottom {
                 flex-direction: column;
                 text-align: center;
@@ -1719,33 +1733,35 @@
             .section {
                 padding: 4rem 0;
             }
-            
+
             .hero-title {
                 font-size: 2.2rem;
             }
-            
+
             .hero-image {
                 height: 300px;
             }
-            
+
             .about-stats {
                 flex-direction: column;
             }
-            
+
             .testimonial-card {
                 padding: 2rem;
             }
-            
+
             .projects-grid {
                 grid-template-columns: 1fr;
             }
-            
-            .cursor, .cursor-follower {
+
+            .cursor,
+            .cursor-follower {
                 display: none;
             }
         }
     </style>
 </head>
+
 <body>
     <!-- Custom Cursor -->
     <div class="cursor"></div>
@@ -1756,11 +1772,14 @@
         <div class="loader">
             <svg viewBox="0 0 100 100">
                 <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(0, 194, 255, 0.2)" stroke-width="3" />
-                <circle cx="50" cy="50" r="45" fill="none" stroke="var(--primary)" stroke-width="3" stroke-dasharray="282.74" stroke-dashoffset="282.74" class="progress-ring" />
+                <circle cx="50" cy="50" r="45" fill="none" stroke="var(--primary)" stroke-width="3"
+                    stroke-dasharray="282.74" stroke-dashoffset="282.74" class="progress-ring" />
             </svg>
             <div class="loader-logo">
                 <svg viewBox="0 0 50 50" fill="none">
-                    <path d="M25 5C13.954 5 5 13.954 5 25C5 36.046 13.954 45 25 45C36.046 45 45 36.046 45 25C45 13.954 36.046 5 25 5ZM25 15C30.523 15 35 19.477 35 25C35 30.523 30.523 35 25 35C19.477 35 15 30.523 15 25C15 19.477 19.477 15 25 15Z" fill="var(--primary)"/>
+                    <path
+                        d="M25 5C13.954 5 5 13.954 5 25C5 36.046 13.954 45 25 45C36.046 45 45 36.046 45 25C45 13.954 36.046 5 25 5ZM25 15C30.523 15 35 19.477 35 25C35 30.523 30.523 35 25 35C19.477 35 15 30.523 15 25C15 19.477 19.477 15 25 15Z"
+                        fill="var(--primary)" />
                 </svg>
             </div>
             <div class="count">0%</div>
@@ -1774,7 +1793,9 @@
                 <a href="#">
                     <div class="logo-icon">
                         <svg viewBox="0 0 50 50" fill="none">
-                            <path d="M25 5C13.954 5 5 13.954 5 25C5 36.046 13.954 45 25 45C36.046 45 45 36.046 45 25C45 13.954 36.046 5 25 5ZM25 15C30.523 15 35 19.477 35 25C35 30.523 30.523 35 25 35C19.477 35 15 30.523 15 25C15 19.477 19.477 15 25 15Z" fill="var(--primary)"/>
+                            <path
+                                d="M25 5C13.954 5 5 13.954 5 25C5 36.046 13.954 45 25 45C36.046 45 45 36.046 45 25C45 13.954 36.046 5 25 5ZM25 15C30.523 15 35 19.477 35 25C35 30.523 30.523 35 25 35C19.477 35 15 30.523 15 25C15 19.477 19.477 15 25 15Z"
+                                fill="var(--primary)" />
                         </svg>
                     </div>
                     IMF <span>Energy</span>
@@ -1811,7 +1832,8 @@
             <div class="hero-content">
                 <div class="hero-subtitle">Innovative Construction Company</div>
                 <h1 class="hero-title">Building <span>Tomorrow's</span> Energy Solutions</h1>
-                <p class="hero-description">IMF Energy delivers cutting-edge construction services for renewable energy infrastructure, industrial facilities, and sustainable building projects worldwide.</p>
+                <p class="hero-description">IMF Energy delivers cutting-edge construction services for renewable energy
+                    infrastructure, industrial facilities, and sustainable building projects worldwide.</p>
                 <div class="hero-btns">
                     <a href="#services" class="btn btn-primary">Our Services <span class="btn-icon">→</span></a>
                     <a href="#projects" class="btn btn-outline">View Projects <span class="btn-icon">→</span></a>
@@ -1833,7 +1855,7 @@
             </div>
             <div class="hero-image">
                 <div class="hero-image-inner">
-                    <img src="/api/placeholder/600/700" alt="Modern Construction">
+                    <img src="images/modern-construction.jpg" alt="Modern Construction">
                 </div>
                 <div class="hero-image-badge">Trusted by <span>250+</span> Clients</div>
             </div>
@@ -1851,12 +1873,17 @@
         <div class="container about-container">
             <div class="about-content">
                 <h2 class="section-title">Redefining <span>Construction</span></h2>
-                <p class="section-subtitle">We're pioneering a new approach to energy infrastructure that prioritizes sustainability, innovation, and excellence.</p>
+                <p class="section-subtitle">We're pioneering a new approach to energy infrastructure that prioritizes
+                    sustainability, innovation, and excellence.</p>
                 <p class="about-text">
-                    At IMF Energy, we're not just builders – we're visionaries. For over 15 years, we've been transforming the construction landscape with cutting-edge approaches to energy infrastructure development.
+                    At IMF Energy, we're not just builders – we're visionaries. For over 15 years, we've been
+                    transforming the construction landscape with cutting-edge approaches to energy infrastructure
+                    development.
                 </p>
                 <p class="about-text">
-                    Our team brings together world-class engineers, architects, project managers, and sustainability experts who share a passion for excellence and are dedicated to creating a cleaner, more efficient future through innovative construction solutions.
+                    Our team brings together world-class engineers, architects, project managers, and sustainability
+                    experts who share a passion for excellence and are dedicated to creating a cleaner, more efficient
+                    future through innovative construction solutions.
                 </p>
                 <a href="#services" class="btn btn-primary">Discover Our Services <span class="btn-icon">→</span></a>
                 <div class="about-stats">
@@ -1876,7 +1903,7 @@
             </div>
             <div class="about-image">
                 <div class="about-image-inner">
-                    <img src="/api/placeholder/600/700" alt="Construction Team">
+                    <img src="/images/construction-team.jpg" alt="Construction Team">
                 </div>
                 <div class="about-image-text">15+ Years Experience</div>
                 <div class="about-image-text2">Global Projects</div>
@@ -1889,42 +1916,51 @@
         <div class="services-bg"></div>
         <div class="container services-container">
             <h2 class="section-title">Our <span>Services</span></h2>
-            <p class="section-subtitle">We deliver comprehensive construction solutions for a wide range of energy and industrial projects, focusing on innovation and sustainability.</p>
+            <p class="section-subtitle">We deliver comprehensive construction solutions for a wide range of energy and
+                industrial projects, focusing on innovation and sustainability.</p>
             <div class="services-cards">
                 <div class="service-card" style="animation-delay: 0.1s;">
                     <div class="service-icon">🔆</div>
                     <h3 class="service-title">Renewable Energy Construction</h3>
-                    <p class="service-description">Specialized construction services for solar farms, wind energy facilities, and hydroelectric power plants, ensuring efficient and sustainable energy production.</p>
+                    <p class="service-description">Specialized construction services for solar farms, wind energy
+                        facilities, and hydroelectric power plants, ensuring efficient and sustainable energy
+                        production.</p>
                     <a href="#" class="service-link">Learn More <span class="service-link-icon">→</span></a>
                 </div>
                 <div class="service-card" style="animation-delay: 0.2s;">
                     <div class="service-icon">🏭</div>
                     <h3 class="service-title">Industrial Construction</h3>
-                    <p class="service-description">Comprehensive construction solutions for manufacturing plants, refineries, and industrial facilities with a focus on energy efficiency and operational excellence.</p>
+                    <p class="service-description">Comprehensive construction solutions for manufacturing plants,
+                        refineries, and industrial facilities with a focus on energy efficiency and operational
+                        excellence.</p>
                     <a href="#" class="service-link">Learn More <span class="service-link-icon">→</span></a>
                 </div>
                 <div class="service-card" style="animation-delay: 0.3s;">
                     <div class="service-icon">⚡</div>
                     <h3 class="service-title">Energy Infrastructure</h3>
-                    <p class="service-description">Development of critical energy infrastructure including power plants, transmission networks, and distribution systems built to the highest industry standards.</p>
+                    <p class="service-description">Development of critical energy infrastructure including power plants,
+                        transmission networks, and distribution systems built to the highest industry standards.</p>
                     <a href="#" class="service-link">Learn More <span class="service-link-icon">→</span></a>
                 </div>
                 <div class="service-card" style="animation-delay: 0.4s;">
                     <div class="service-icon">🏢</div>
                     <h3 class="service-title">Green Building & Retrofitting</h3>
-                    <p class="service-description">Sustainable construction and retrofitting services to transform existing structures into energy-efficient, environmentally friendly buildings.</p>
+                    <p class="service-description">Sustainable construction and retrofitting services to transform
+                        existing structures into energy-efficient, environmentally friendly buildings.</p>
                     <a href="#" class="service-link">Learn More <span class="service-link-icon">→</span></a>
                 </div>
                 <div class="service-card" style="animation-delay: 0.5s;">
                     <div class="service-icon">🔋</div>
                     <h3 class="service-title">Energy Storage Solutions</h3>
-                    <p class="service-description">Construction of advanced energy storage facilities, including battery arrays, pumped hydro storage, and thermal energy storage systems.</p>
+                    <p class="service-description">Construction of advanced energy storage facilities, including battery
+                        arrays, pumped hydro storage, and thermal energy storage systems.</p>
                     <a href="#" class="service-link">Learn More <span class="service-link-icon">→</span></a>
                 </div>
                 <div class="service-card" style="animation-delay: 0.6s;">
                     <div class="service-icon">📊</div>
                     <h3 class="service-title">Energy Consulting</h3>
-                    <p class="service-description">Expert consultation on energy infrastructure planning, sustainability assessment, and efficiency optimization for existing and planned projects.</p>
+                    <p class="service-description">Expert consultation on energy infrastructure planning, sustainability
+                        assessment, and efficiency optimization for existing and planned projects.</p>
                     <a href="#" class="service-link">Learn More <span class="service-link-icon">→</span></a>
                 </div>
             </div>
@@ -1937,7 +1973,8 @@
             <div class="projects-header">
                 <div>
                     <h2 class="section-title">Featured <span>Projects</span></h2>
-                    <p class="section-subtitle">Explore our portfolio of innovative energy construction projects across various sectors.</p>
+                    <p class="section-subtitle">Explore our portfolio of innovative energy construction projects across
+                        various sectors.</p>
                 </div>
                 <div class="project-filters">
                     <div class="project-filter active">All</div>
@@ -1950,67 +1987,73 @@
             <div class="projects-grid">
                 <div class="project-card" style="animation-delay: 0.1s;">
                     <div class="project-image">
-                        <img src="/api/placeholder/600/400" alt="Solar Farm Project">
+                        <img src="/images/solar-farm.jpg" alt="Solar Farm Project">
                     </div>
                     <div class="project-content">
                         <div class="project-category">RENEWABLE ENERGY</div>
                         <h3 class="project-title">Desert Sun Solar Farm</h3>
-                        <p class="project-description">A 500MW solar installation providing clean energy to over 100,000 homes with innovative tracking technology.</p>
+                        <p class="project-description">A 500MW solar installation providing clean energy to over 100,000
+                            homes with innovative tracking technology.</p>
                         <a href="#" class="btn btn-primary btn-sm">View Project</a>
                     </div>
                 </div>
                 <div class="project-card" style="animation-delay: 0.2s;">
                     <div class="project-image">
-                        <img src="/api/placeholder/600/400" alt="Wind Farm Project">
+                        <img src="/images/wind-farm.jpg" alt="Wind Farm Project">
                     </div>
                     <div class="project-content">
                         <div class="project-category">WIND ENERGY</div>
                         <h3 class="project-title">Coastal Wind Energy Center</h3>
-                        <p class="project-description">Offshore wind turbines generating 750MW of sustainable power for coastal communities.</p>
+                        <p class="project-description">Offshore wind turbines generating 750MW of sustainable power for
+                            coastal communities.</p>
                         <a href="#" class="btn btn-primary btn-sm">View Project</a>
                     </div>
                 </div>
                 <div class="project-card" style="animation-delay: 0.3s;">
                     <div class="project-image">
-                        <img src="/api/placeholder/600/400" alt="Green Building Project">
+                        <img src="/images/green-building.jpg" alt="Green Building Project">
                     </div>
                     <div class="project-content">
                         <div class="project-category">GREEN BUILDING</div>
                         <h3 class="project-title">EcoTower Office Complex</h3>
-                        <p class="project-description">LEED Platinum-certified building with net-zero energy consumption and integrated smart systems.</p>
+                        <p class="project-description">LEED Platinum-certified building with net-zero energy consumption
+                            and integrated smart systems.</p>
                         <a href="#" class="btn btn-primary btn-sm">View Project</a>
                     </div>
                 </div>
                 <div class="project-card" style="animation-delay: 0.4s;">
                     <div class="project-image">
-                        <img src="/api/placeholder/600/400" alt="Hydroelectric Project">
+                        <img src="/images/hydro-electric.jpg" alt="Hydroelectric Project">
                     </div>
                     <div class="project-content">
                         <div class="project-category">HYDROELECTRIC</div>
                         <h3 class="project-title">River Valley Hydroelectric Dam</h3>
-                        <p class="project-description">Sustainable hydroelectric facility with fish-friendly design and minimal environmental impact.</p>
+                        <p class="project-description">Sustainable hydroelectric facility with fish-friendly design and
+                            minimal environmental impact.</p>
                         <a href="#" class="btn btn-primary btn-sm">View Project</a>
                     </div>
                 </div>
                 <div class="project-card" style="animation-delay: 0.5s;">
                     <div class="project-image">
-                        <img src="/api/placeholder/600/400" alt="Energy Storage Project">
+                        <img src="/images/energy-storage.jpg" alt="Energy Storage Project">
                     </div>
                     <div class="project-content">
                         <div class="project-category">ENERGY STORAGE</div>
                         <h3 class="project-title">GridStabilizer Battery Array</h3>
-                        <p class="project-description">Advanced energy storage system providing grid stability and peak demand management.</p>
+                        <p class="project-description">Advanced energy storage system providing grid stability and peak
+                            demand management.</p>
                         <a href="#" class="btn btn-primary btn-sm">View Project</a>
                     </div>
                 </div>
                 <div class="project-card" style="animation-delay: 0.6s;">
                     <div class="project-image">
-                        <img src="/api/placeholder/600/400" alt="Smart Grid Project">
+                        <img src="/images/smart-grid.jpg" alt="Smart Grid Project">
                     </div>
                     <div class="project-content">
                         <div class="project-category">SMART INFRASTRUCTURE</div>
                         <h3 class="project-title">IntelliGrid Network</h3>
-                        <p class="project-description">AI-powered smart grid system for optimized energy distribution and consumption management.</p>
+                        <p class="project-description">AI-powered smart grid system for optimized energy distribution
+                            and consumption management.</p>
                         <a href="#" class="btn btn-primary btn-sm">View Project</a>
                     </div>
                 </div>
@@ -2022,7 +2065,8 @@
     <section class="section process">
         <div class="container process-container">
             <h2 class="section-title">Our <span>Process</span></h2>
-            <p class="section-subtitle">We follow a systematic approach to ensure every project is delivered on time, within budget, and to the highest standards of quality and sustainability.</p>
+            <p class="section-subtitle">We follow a systematic approach to ensure every project is delivered on time,
+                within budget, and to the highest standards of quality and sustainability.</p>
             <div class="process-timeline">
                 <div class="timeline-item" style="animation-delay: 0.1s;">
                     <div class="timeline-dot">
@@ -2030,7 +2074,9 @@
                     </div>
                     <div class="timeline-content">
                         <h3 class="timeline-title">Consultation & Planning</h3>
-                        <p class="timeline-description">We begin with a thorough consultation to understand your needs, goals, and vision. Our team of experts then develops a comprehensive plan with detailed timelines, budgets, and resource allocations.</p>
+                        <p class="timeline-description">We begin with a thorough consultation to understand your needs,
+                            goals, and vision. Our team of experts then develops a comprehensive plan with detailed
+                            timelines, budgets, and resource allocations.</p>
                     </div>
                 </div>
                 <div class="timeline-item" style="animation-delay: 0.2s;">
@@ -2039,7 +2085,9 @@
                     </div>
                     <div class="timeline-content">
                         <h3 class="timeline-title">Design & Engineering</h3>
-                        <p class="timeline-description">Our architects and engineers create detailed designs that balance aesthetics, functionality, and sustainability. We use advanced modeling tools to optimize energy efficiency and environmental performance.</p>
+                        <p class="timeline-description">Our architects and engineers create detailed designs that
+                            balance aesthetics, functionality, and sustainability. We use advanced modeling tools to
+                            optimize energy efficiency and environmental performance.</p>
                     </div>
                 </div>
                 <div class="timeline-item" style="animation-delay: 0.3s;">
@@ -2048,7 +2096,9 @@
                     </div>
                     <div class="timeline-content">
                         <h3 class="timeline-title">Construction & Implementation</h3>
-                        <p class="timeline-description">We deploy experienced construction teams using cutting-edge techniques and technologies. Our project managers ensure strict adherence to safety standards, quality control, and sustainability practices.</p>
+                        <p class="timeline-description">We deploy experienced construction teams using cutting-edge
+                            techniques and technologies. Our project managers ensure strict adherence to safety
+                            standards, quality control, and sustainability practices.</p>
                     </div>
                 </div>
                 <div class="timeline-item" style="animation-delay: 0.4s;">
@@ -2057,7 +2107,9 @@
                     </div>
                     <div class="timeline-content">
                         <h3 class="timeline-title">Testing & Commissioning</h3>
-                        <p class="timeline-description">Every system is rigorously tested to ensure optimal performance and compliance with specifications. We provide comprehensive training for operation and maintenance personnel.</p>
+                        <p class="timeline-description">Every system is rigorously tested to ensure optimal performance
+                            and compliance with specifications. We provide comprehensive training for operation and
+                            maintenance personnel.</p>
                     </div>
                 </div>
                 <div class="timeline-item" style="animation-delay: 0.5s;">
@@ -2066,7 +2118,9 @@
                     </div>
                     <div class="timeline-content">
                         <h3 class="timeline-title">Ongoing Support</h3>
-                        <p class="timeline-description">Our relationship doesn't end at project completion. We offer ongoing maintenance, optimization services, and technical support to ensure the long-term success of your energy infrastructure.</p>
+                        <p class="timeline-description">Our relationship doesn't end at project completion. We offer
+                            ongoing maintenance, optimization services, and technical support to ensure the long-term
+                            success of your energy infrastructure.</p>
                     </div>
                 </div>
             </div>
@@ -2077,10 +2131,14 @@
     <section class="section testimonials">
         <div class="container testimonials-container">
             <h2 class="section-title">Client <span>Testimonials</span></h2>
-            <p class="section-subtitle">Here's what our clients have to say about their experience working with IMF Energy.</p>
+            <p class="section-subtitle">Here's what our clients have to say about their experience working with IMF
+                Energy.</p>
             <div class="testimonial-card">
                 <p class="testimonial-text">
-                    "IMF Energy delivered our solar farm project ahead of schedule and under budget. Their team's expertise in renewable energy construction is unmatched in the industry. We've already contracted them for our next three projects because of their exceptional performance, innovative solutions, and commitment to sustainability."
+                    "IMF Energy delivered our solar farm project ahead of schedule and under budget. Their team's
+                    expertise in renewable energy construction is unmatched in the industry. We've already contracted
+                    them for our next three projects because of their exceptional performance, innovative solutions, and
+                    commitment to sustainability."
                 </p>
                 <div class="testimonial-author">
                     <div class="testimonial-avatar">
@@ -2094,19 +2152,19 @@
             </div>
             <div class="testimonial-logos">
                 <div class="testimonial-logo">
-                    <img src="/api/placeholder/150/50" alt="Client Logo 1">
+                    <img src="/images/logo.jpg" alt="Client Logo 1">
                 </div>
                 <div class="testimonial-logo">
-                    <img src="/api/placeholder/150/50" alt="Client Logo 2">
+                    <img src="/images/logo.jpg" alt="Client Logo 2">
                 </div>
                 <div class="testimonial-logo">
-                    <img src="/api/placeholder/150/50" alt="Client Logo 3">
+                    <img src="/images/logo.jpg" alt="Client Logo 3">
                 </div>
                 <div class="testimonial-logo">
-                    <img src="/api/placeholder/150/50" alt="Client Logo 4">
+                    <img src="/images/logo.jpg" alt="Client Logo 4">
                 </div>
                 <div class="testimonial-logo">
-                    <img src="/api/placeholder/150/50" alt="Client Logo 5">
+                    <img src="/images/logo.jpg" alt="Client Logo 5">
                 </div>
             </div>
         </div>
@@ -2117,20 +2175,21 @@
         <div class="container contact-container">
             <div class="contact-info">
                 <h2 class="section-title">Get In <span>Touch</span></h2>
-                <p class="section-subtitle">Have a project in mind? Want to explore how IMF Energy can help you achieve your sustainability goals? Our team is ready to bring your vision to life.</p>
+                <p class="section-subtitle">Have a project in mind? Want to explore how IMF Energy can help you achieve
+                    your sustainability goals? Our team is ready to bring your vision to life.</p>
                 <div class="contact-info-items">
                     <div class="contact-info-item">
                         <div class="contact-info-icon">📍</div>
                         <div class="contact-info-content">
                             <h4>Our Location</h4>
-                            <p>123 Energy Avenue, Tech City<br>TC 10010, United States</p>
+                            <p>1102 Lingkaran Cyber Point Barat<br>Cyberjaya, Malaysia</p>
                         </div>
                     </div>
                     <div class="contact-info-item">
                         <div class="contact-info-icon">📞</div>
                         <div class="contact-info-content">
                             <h4>Call Us</h4>
-                            <p>+1 (555) 123-4567<br>+1 (555) 987-6543</p>
+                            <p>03-8322 6069</p>
                         </div>
                     </div>
                     <div class="contact-info-item">
@@ -2164,7 +2223,8 @@
                         <div class="form-group">
                             <textarea class="form-control" placeholder="Your Message"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Send Message <span class="btn-icon">→</span></button>
+                        <button type="submit" class="btn btn-primary">Send Message <span
+                                class="btn-icon">→</span></button>
                     </form>
                 </div>
             </div>
@@ -2180,7 +2240,8 @@
                         <a href="#">IMF <span>Energy</span></a>
                     </div>
                     <p class="footer-about">
-                        Leading the way in sustainable energy construction solutions, committed to building a cleaner, greener future through innovative infrastructure development.
+                        Leading the way in sustainable energy construction solutions, committed to building a cleaner,
+                        greener future through innovative infrastructure development.
                     </p>
                     <div class="contact-social">
                         <a href="#" class="contact-social-link">FB</a>
@@ -2211,7 +2272,8 @@
                 </div>
                 <div class="footer-col">
                     <h3 class="footer-title">Newsletter</h3>
-                    <p class="footer-newsletter">Subscribe to our newsletter to receive the latest updates on industry trends, company news, and project highlights.</p>
+                    <p class="footer-newsletter">Subscribe to our newsletter to receive the latest updates on industry
+                        trends, company news, and project highlights.</p>
                     <form class="footer-form">
                         <input type="email" class="footer-input" placeholder="Your Email">
                         <button type="submit" class="footer-button">→</button>
@@ -2231,26 +2293,26 @@
 
     <script>
         // Loader Animation
-        window.addEventListener('load', function() {
+        window.addEventListener('load', function () {
             const loader = document.querySelector('.loader-wrapper');
             const progressRing = document.querySelector('.progress-ring');
             const countElement = document.querySelector('.count');
-            
+
             let count = 0;
             const interval = setInterval(() => {
                 count += 1;
                 countElement.textContent = `${count}%`;
-                
+
                 const progress = 282.74 - (282.74 * count / 100);
                 progressRing.style.strokeDashoffset = progress;
-                
+
                 if (count >= 100) {
                     clearInterval(interval);
                     setTimeout(() => {
                         loader.style.opacity = '0';
                         setTimeout(() => {
                             loader.style.display = 'none';
-                            
+
                             // Animate elements with animation classes
                             const animatedElements = document.querySelectorAll('[class*="fadeIn"]');
                             animatedElements.forEach(el => {
@@ -2261,73 +2323,73 @@
                 }
             }, 20);
         });
-        
+
         // Scroll Animation
         function animateOnScroll() {
             const elements = document.querySelectorAll('.service-card, .project-card, .testimonial-card, .timeline-item, .tech-item');
-            
+
             elements.forEach(element => {
                 const elementPosition = element.getBoundingClientRect().top;
                 const screenPosition = window.innerHeight / 1.2;
-                
+
                 if (elementPosition < screenPosition) {
                     element.style.opacity = '1';
                     element.style.transform = 'translateY(0)';
                 }
             });
         }
-        
+
         window.addEventListener('scroll', animateOnScroll);
         window.addEventListener('load', animateOnScroll);
-        
+
         // Custom Cursor
         const cursor = document.querySelector('.cursor');
         const cursorFollower = document.querySelector('.cursor-follower');
-        
+
         document.addEventListener('mousemove', (e) => {
             cursor.style.left = e.clientX + 'px';
             cursor.style.top = e.clientY + 'px';
-            
+
             setTimeout(() => {
                 cursorFollower.style.left = e.clientX + 'px';
                 cursorFollower.style.top = e.clientY + 'px';
             }, 100);
         });
-        
+
         const links = document.querySelectorAll('a, button, input, textarea, .project-filter, .menu-btn');
-        
+
         links.forEach(link => {
             link.addEventListener('mouseenter', () => {
                 cursor.classList.add('hover');
             });
-            
+
             link.addEventListener('mouseleave', () => {
                 cursor.classList.remove('hover');
             });
         });
-        
+
         // Mobile Menu Toggle
         const menuBtn = document.querySelector('.menu-btn');
         const nav = document.querySelector('.nav');
-        
+
         menuBtn.addEventListener('click', () => {
             menuBtn.classList.toggle('active');
             nav.classList.toggle('active');
         });
-        
+
         // Close mobile menu when clicking nav links
         const navLinks = document.querySelectorAll('.nav-link');
-        
+
         navLinks.forEach(link => {
             link.addEventListener('click', () => {
                 menuBtn.classList.remove('active');
                 nav.classList.remove('active');
             });
         });
-        
+
         // Header Scroll Effect
         const header = document.querySelector('.header');
-        
+
         window.addEventListener('scroll', () => {
             if (window.scrollY > 50) {
                 header.classList.add('scrolled');
@@ -2335,33 +2397,33 @@
                 header.classList.remove('scrolled');
             }
         });
-        
+
         // Project Filters
         const projectFilters = document.querySelectorAll('.project-filter');
-        
+
         projectFilters.forEach(filter => {
             filter.addEventListener('click', () => {
                 // Remove active class from all filters
                 projectFilters.forEach(f => f.classList.remove('active'));
                 // Add active class to clicked filter
                 filter.classList.add('active');
-                
+
                 // Here you would add the actual filtering logic
                 // Example: const category = filter.textContent.toLowerCase();
                 // Then filter the projects based on category
             });
         });
-        
+
         // Smooth Scrolling for Anchor Links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+            anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                
+
                 const targetId = this.getAttribute('href');
                 if (targetId === '#') return;
-                
+
                 const targetElement = document.querySelector(targetId);
-                
+
                 if (targetElement) {
                     window.scrollTo({
                         top: targetElement.offsetTop - 80,
@@ -2370,10 +2432,10 @@
                 }
             });
         });
-        
+
         // Check if device is mobile
         const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        
+
         if (isMobile) {
             // Hide cursor elements on mobile
             cursor.style.display = 'none';
@@ -2381,4 +2443,5 @@
         }
     </script>
 </body>
+
 </html>
